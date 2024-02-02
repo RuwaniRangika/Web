@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Villa King Coco</title>
+    <title>  <?php echo $title;?> </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -52,14 +52,21 @@
                 <header class="header">
                     <a href="" class="logo"><img src="image/logo.png" alt="Villa King Coco"></a>
                     <nav class="navbar">
-                        <a href="ex2.php">Ex2</a>
-                        <a href="location.php">Location</a>
-                        <a href="facilities.php">Facilities</a>
-                        <a href="rates.php">Rates</a>
-                        <a href="gallery.php">Gallery</a>
-                        <a href="contactus.php">Contact Us</a>
-                        <a href="ex1.php">Ex1</a>
+                        <a href="ex1.php">Example1</a>
+                        <a href="ex2.php">Example2</a>
+                        <a href="ex3.php">Example3</a>
+                        <a href="rates.php">Example4</a>
+                        <a href="gallery.php">Example5</a>
+                        <a href="contactus.php">Example6</a>
+                        <a href="efacilities.php">Example7</a>
                     </nav>
                 </header>
             </div>
         </div>
+
+
+
+        <div class="section text-left">
+            <div class="row">
+                <div class="textOnVideo col">
+

@@ -1,4 +1,8 @@
   <!-- footer -->
+  </div>
+            </div>
+        </div>
+
   <div class="footer text-left">
             <div class="row">
                 <div class="col-md-4">

@@ -1,9 +1,3 @@
-
-
-<?php 
-$title="Exercise 1: Getting Started with PHP";
-include "header.php" ?>
-<br>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,5 +53,5 @@ $g3=5;
 
 </body>
 </html>
-</br>
-<?php include 'footer.php'?>  
+
+
