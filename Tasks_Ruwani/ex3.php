@@ -7,7 +7,7 @@
                 <div class="textOnVideo col">
                     <h2> Exercise 3: Variable, Strings & Operators</h2>
 
-      <!-- 3.2  Bootstrap Styling: Apply Bootstrap styles to the form.
+      <!-- 3.3  Bootstrap Styling: Apply Bootstrap styles to the form.
  Make sure to include the Bootstrap CSS link in your <head> tag. BootStrap Guide-->
    
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
