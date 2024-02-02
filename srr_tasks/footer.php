@@ -1,12 +1,8 @@
   <!-- footer -->
-  </div>
-            </div>
-        </div>
-
   <div class="footer text-left">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="image/logo.png" alt="Villa King Coco" style="width: 50px; height: 50px; margin: 20px;">
+                    <img src="images/logo.png" alt="Villa King Coco" style="width: 50px; height: 50px; margin: 20px;">
                     <h5 class="m-3">
                         <p>King Coco Villa <br>
                             Hospitality and Comfort <br>
@@ -21,9 +17,11 @@
                 </div>
                 <div class="col-md-4">
                     <h5 class="m-3">
-                        <img src="image/icon/phone_.png" alt="" style="background-color: aliceblue;width: 30px; height: 30px; margin-right: 10px;" >+94719669291</p>
-                        <p> <img src="image/icon/email_ (1).png" style="background-color: aliceblue;width: 30px; height: 30px; margin-right: 10px;" alt="">kingcocovilla@gmail.com</p>
+                        <img src="images/icon/phone_.png" alt="" style="background-color: aliceblue;width: 30px; height: 30px; margin-right: 10px;" >+94719669291</p>
+                        <p> <img src="images/icon/email_ (1).png" style="background-color: aliceblue;width: 30px; height: 30px; margin-right: 10px;" alt="">kingcocovilla@gmail.com</p>
                     </h5>
+
+     
                 </div>
             </div>
         </div> <!--footer-->

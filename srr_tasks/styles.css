@@ -4,20 +4,21 @@
 
 body {
     background-color: #fff;
-    background-image: url('image/beach.jpg');
+    background-image: url('images/beach.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    
 }
 
 .header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,6 +27,9 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    margin-bottom: 40px;
+    
+    
 }
 
 .logo img {
@@ -37,7 +41,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 15px;
-    color: rgb(22, 23, 24);
+    color:black;
     font-weight: 20;
     text-decoration: none;
     margin-left: 20px;
@@ -50,7 +54,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: rgb(206, 212, 214);
+    background: aliceblue;
     transition: .3s;
 }
 
@@ -88,6 +92,7 @@ body {
 .footer {
     background: #000000;
     color: #fff;
+    margin-top: 40px;
 }
 
 /*.........../*
@@ -114,6 +119,10 @@ body {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+  
+
+
+
 
 
 
