@@ -11,7 +11,9 @@ include 'header.php' ?>
     // use backslash to escape special charachters like "
     echo "Hello world! My name is \"David\"";
     ?>
-    
+    <br>
+   <br>
+   <br>
     <h3>3.2 Create a PHP variable named and assign it the value "PHP is interesting." 
         Then, use this variable as the content within an  (heading 4) element.
        </h3>
@@ -19,7 +21,9 @@ include 'header.php' ?>
        $title = "PHP is interesting.";
        echo "<h4> $title</h4>"
         ?>
-
+<br>
+   <br>
+   <br>
 <h3>3.3 Define three variables: $g1 = 5, $g2 = 4, and $g3 = 5. These variables represent the grades of three students in the course.
      To display this information, create an HTML table within your PHP code. The table should be structured with columns for Serial
      Number (S.n.), Name, and Grade, and it should look like this:
@@ -43,7 +47,10 @@ $g3=5;
         <td>3</td> <td>Bob</td> <td> <?php echo $g3 ?> </td> </tr>
 
 </table>
-
+   
+<br>
+   <br>
+   <br>
 <h3>3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.
 
 </h3>

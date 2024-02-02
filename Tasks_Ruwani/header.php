@@ -30,7 +30,7 @@
                     <nav class="navbar">
                         <a href="ex1.php">Exercise 01</a>
                         <a href="ex2.php">Exercise 02</a>
-                        <a href="">Exercise 03</a>
+                        <a href="ex3.php">Exercise 03</a>
                         <a href="">Exercise 04</a>
                         <a href="">Exercise 05</a>
                         <a href="">Exercise 06</a>
