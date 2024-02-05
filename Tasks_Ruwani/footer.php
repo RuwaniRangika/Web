@@ -20,12 +20,21 @@
                         <img src="images/icon/phone_.png" alt="" style="background-color: aliceblue;width: 30px; height: 30px; margin-right: 10px;" >+94719669291</p>
                         <p> <img src="images/icon/email_ (1).png" style="background-color: aliceblue;width: 30px; height: 30px; margin-right: 10px;" alt="">kingcocovilla@gmail.com</p>
                     </h5>
+                 
+        <h3>File Modification Time</h3>
+        <?php
+        $filename = basename($_SERVER['PHP_SELF']);
+        $lastModifiedTime = filemtime($filename);
+        echo "<p>Last Modified: " . date("F d Y H:i:s.", $lastModifiedTime) . "</p>";
+        ?>
+    
 
      
                 </div>
             </div>
         </div> <!--footer-->
-    </div> <!--container-->
+    </div> 
+    <!--container-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

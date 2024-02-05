@@ -6,16 +6,11 @@
             <div class="row">
                 <div class="textOnVideo col">
                     <h2> Exercise 3: Variable, Strings & Operators</h2>
-
-      <!-- 3.3  Bootstrap Styling: Apply Bootstrap styles to the form.
- Make sure to include the Bootstrap CSS link in your <head> tag. BootStrap Guide-->
-   
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <br>
 <body>
- <h3>3.3 Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname.
+ <h3>3.2 Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname.
          Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” 
          inside an <h3> tag. Table & Form Guide
 </h3>
@@ -38,6 +33,24 @@
 <br>
 <br>
 <br>
+
+<h3>3.3 Bootstrap Styling: Apply Bootstrap styles to the form. Make sure to include the Bootstrap CSS link in your tag.</h3>
+                
+                            <form name="bootstrapForm" class="mt-4">
+                                <div class="mb-3">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" name="firstNamewithBootstrap" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="   text" name="lastNamewithBootstrap" class="form-control" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                            <br>
+<br>
+<br>
+                    <br>
  <h3>3.4 HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. 
     Note, you have already done a table in Exercise 1. If you wish, you can use the same table. 
     BootStrap Cheatsheet</h3>
@@ -111,19 +124,12 @@
 
     <h3>3.8 File Modification Time: Write a PHP script in the footer section of your universal footer to display the last modification time of a file. Hint: Use predefined variable $_SERVER, basename function  to get the filename , filetime function to get 
         the last modified time & date function to print the date and time Predefined Variables</h3>
-    <!-- File Modification Time Section -->
-    <footer >
-        <h3>File Modification Time</h3>
-        <?php
-        $filename = basename($_SERVER['PHP_SELF']);
-        $lastModifiedTime = filemtime($filename);
-        echo "<p>Last Modified: " . date("F d Y H:i:s.", $lastModifiedTime) . "</p>";
-        ?>
-    </footer>
+    
+ 
 
 
 </body>
-</html>
+
 
 <?php include 'footer.php'; ?>
         
