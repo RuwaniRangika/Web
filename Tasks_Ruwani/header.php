@@ -34,6 +34,7 @@
                         <a href="ex4.php">Exercise 04</a>
                         <a href="">Exercise 05</a>
                         <a href="">Exercise 06</a>
+                        <a href="index1.php">Exercise 07</a>
                         
                     </nav>
                 </header>

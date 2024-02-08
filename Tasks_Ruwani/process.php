@@ -1,4 +1,6 @@
 <?php
+$title="Exercise 7: CRUD APP-Ruwani Rangika";
+include 'header1.php';
 // what to do with the data
 if (isset ($_POST['submit'])) {
       $name = $_POST['fname'];
@@ -30,7 +32,9 @@ if (isset ($_POST['submit'])) {
 
  }
 
-  ?>
+ include 'footer.php';
+ ?>
+ 
 
 
 

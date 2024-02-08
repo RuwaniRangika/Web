@@ -37,6 +37,11 @@
                         <a href="read.php">Exercise 07</a>
                     </nav>
                 </header>
-         
+                <br><br><br>
+                <h3>List of Tasks</h3>
+                <ul>
+                    <li><a href="../crud/index.php" style="color:red;"> Create Data</a> </li>
+                    <li><a href="../crud/read.php" style="color:red;"> Read Data</a> </li>
+                </ul>
             </div>
         </div>

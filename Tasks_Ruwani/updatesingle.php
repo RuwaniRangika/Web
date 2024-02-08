@@ -1,5 +1,6 @@
 <?php
-
+$title="Exercise 7: CRUD APP-Ruwani Rangika";
+include 'header.php';
 include 'db.php';
 $a = $_GET['id'];
 $result = mysqli_query($conn,"SELECT * FROM studentsinfo WHERE id= '$a'");
@@ -21,9 +22,11 @@ $row= mysqli_fetch_array($result);
       <input type="text" class="form-control" placeholder="City" name="city" required value="<?php echo $row['city']; ?>">
     </div>
 
+
     <div class="col">
-      <input type="text" class="form-control" placeholder="City" name="city" required value="<?php echo $row['groupId']; ?>">    
+      <input type="text" class="form-control" placeholder="City" name="city" required value="<?php echo $row['groupid']; ?>">    
     </div>
+
 
   </div>
 <br>
@@ -52,6 +55,7 @@ if (isset($_POST['submit'])){
     else { echo "Record Not modified";}
     }
 
+
     if (isset($_POST['delete'])){
         $query = mysqli_query($conn,"DELETE FROM studentsinfo where id='$a'");
         if($query){
@@ -62,6 +66,10 @@ if (isset($_POST['submit'])){
         else { echo "Record Not Deleted";}
         }
 
+
 $conn->close();
 
+
+include 'footer.php';
 ?>
+

@@ -1,6 +1,7 @@
 <?php
 $title="Exercise 7: CRUD APP-Ruwani Rangika";
-include '../header1.php';
+include 'header.php';
+
 
 include 'db.php';
 // SQL query to retrieve data from the 'studentsinfo' table
@@ -42,6 +43,6 @@ if ($result->num_rows > 0) {
 // close the connection when done
 $conn->close();
 
-include '../footer.php';
+ include 'footer.php';
 ?>
 
